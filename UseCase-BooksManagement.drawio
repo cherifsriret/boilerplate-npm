@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T12:13:10.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Fxv1o9J3KnqEi_XGWwXT" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-23T12:24:04.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tOeM0i4QHl2XFYGTzdhG" version="23.0.2" type="github">
   <diagram name="Page-1" id="CemEBRkSzwkYNfs3ROtx">
     <mxGraphModel dx="1886" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,14 +7,26 @@
         <mxCell id="Zbdr4TXCIVdiAfYFFAAR-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="30" y="20" width="790" height="790" as="geometry" />
         </mxCell>
+        <mxCell id="Zbdr4TXCIVdiAfYFFAAR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="350" as="sourcePoint" />
+            <mxPoint x="125" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Zbdr4TXCIVdiAfYFFAAR-3" value="Modirator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="110" y="366" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zbdr4TXCIVdiAfYFFAAR-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="110" y="126" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Zbdr4TXCIVdiAfYFFAAR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="600" as="sourcePoint" />
+            <mxPoint x="125" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Zbdr4TXCIVdiAfYFFAAR-5" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="100" y="666" width="30" height="60" as="geometry" />
+          <mxGeometry x="110" y="620" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zbdr4TXCIVdiAfYFFAAR-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="96" width="580" height="694" as="geometry" />
