@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T08:54:55.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9fqEDf2yNSf7jeZGCVew" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T08:55:29.326Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rAN7QtR2rdv6nEriCqUQ" version="24.2.5" type="github">
   <diagram name="Page-1" id="Wl3OVvI_i9Uu6-yHzgTa">
     <mxGraphModel dx="954" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -549,6 +549,62 @@
             <mxPoint y="3640" as="sourcePoint" />
             <mxPoint x="842" y="3640" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-157" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="3573" width="775" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-158" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="r-KjHQPf-Q4y7F3wXpSw-157">
+          <mxGeometry x="720" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-159" value="Guest User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="r-KjHQPf-Q4y7F3wXpSw-157">
+          <mxGeometry y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-160" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;IndexController&lt;/b&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="r-KjHQPf-Q4y7F3wXpSw-157">
+          <mxGeometry x="240" y="130" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="r-KjHQPf-Q4y7F3wXpSw-157" source="r-KjHQPf-Q4y7F3wXpSw-159" target="r-KjHQPf-Q4y7F3wXpSw-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-162" value="(1) search [GET]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-KjHQPf-Q4y7F3wXpSw-161">
+          <mxGeometry x="-0.2286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="r-KjHQPf-Q4y7F3wXpSw-157" source="r-KjHQPf-Q4y7F3wXpSw-160" target="r-KjHQPf-Q4y7F3wXpSw-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-164" value="(2) Get suggested&amp;nbsp;books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-KjHQPf-Q4y7F3wXpSw-163">
+          <mxGeometry x="0.0244" y="2" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="r-KjHQPf-Q4y7F3wXpSw-157" source="r-KjHQPf-Q4y7F3wXpSw-167" target="r-KjHQPf-Q4y7F3wXpSw-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-166" value="(5) show suggested books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-KjHQPf-Q4y7F3wXpSw-165">
+          <mxGeometry x="-0.1304" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-167" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;partial view search&lt;/b&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="r-KjHQPf-Q4y7F3wXpSw-157">
+          <mxGeometry x="240" y="280" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-168" value="(4) return books as json" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="r-KjHQPf-Q4y7F3wXpSw-157" source="r-KjHQPf-Q4y7F3wXpSw-160" target="r-KjHQPf-Q4y7F3wXpSw-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="r-KjHQPf-Q4y7F3wXpSw-157" source="r-KjHQPf-Q4y7F3wXpSw-158" target="r-KjHQPf-Q4y7F3wXpSw-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-170" value="(3) return return some books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-KjHQPf-Q4y7F3wXpSw-169">
+          <mxGeometry x="-0.2285" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-171" value="Search Process" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="r-KjHQPf-Q4y7F3wXpSw-157">
+          <mxGeometry x="320" y="77" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r-KjHQPf-Q4y7F3wXpSw-172" value="Book Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="r-KjHQPf-Q4y7F3wXpSw-157">
+          <mxGeometry x="685" y="280" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
